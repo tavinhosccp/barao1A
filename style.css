@@ -1,15 +1,34 @@
-body {
+header {
+   background: #5CBF5F;
+   padding: 20px 0;
 }
-#banner {
-width:100%;
-{
-.principal{
-backgroud: #CCCCCC;
-padding:30px;
+
+.logo {
+   widht: 200px;
+   height: 200px;
 }
-.titulo-principal {
-  padding-left:20px;
-  }
-  .titulo-centralizado{
-    text-align:center
-      {
+
+.caixa {
+   position: relative;
+   width: 940px;
+   margin: 0 auto;
+}
+
+nav {
+   position: absolute;
+   top: 110px;
+   right: 0;
+}
+
+nav li {
+   display: inline;
+   margin: 0 0 0 15px;
+}
+
+nav a {
+   text-transform: uppercase;
+   color: #000000;
+   font-weight: bold;
+   font-size: 22px;
+   text-decoration: none;
+}
